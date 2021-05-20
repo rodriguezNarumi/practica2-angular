@@ -8,6 +8,8 @@ import { descripcionComponent } from './descripcionCSS/descripcioncss.component'
 import { descripcion1Component } from './descripcionJS/descripcionjs.component';
 import { descripcion2Component } from './descripcionHTML/descripcionhtml.component';
 import { descripcion3Component } from './descripcionTS/descripcionts.component';
+import { Html5Component } from './html5/html5.component';
+import { NarutoComponent } from './naruto/naruto.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { descripcion3Component } from './descripcionTS/descripcionts.component';
     descripcionComponent,
     descripcion1Component,
     descripcion2Component,
-    descripcion3Component
+    descripcion3Component,
+    Html5Component,
+    NarutoComponent
   
   ],
   imports: [
